@@ -24,7 +24,9 @@ ToT information requests (or "queries") are verbose and contain a wide-range of 
 
 **Correct answer**: <a href="https://www.imdb.com/title/tt0058230/" target="_blank">The Incredible Mr. Limpet</a>
 
-The NTCIR ToT track aims to develop IR systems that can successfully resolve ToT information needs.  Progress in this area will likely benefit other IR systems that must deal with memory assistance, such as personal information management (PIM) systems (e.g., email re-finding). The track will focus on known-item identification—a task that is broadly relatable and has been the focus of recent research [<a href="https://dl.acm.org/doi/abs/10.1145/3406522.3446021" target="_blank">1</a>, <a href="https://dl.acm.org/doi/abs/10.1145/3465336.3475096" target="_blank">2</a>, <a href="https://dl.acm.org/doi/abs/10.1145/3488560.3498421" target="_blank">3</a>, <a href="https://ceur-ws.org/Vol-3366/paper-03.pdf" target="_blank">4</a>, <a href="https://aclanthology.org/2023.findings-emnlp.367/" target="_blank">5</a>, <a href="https://vbn.aau.dk/en/publications/exploring-the-zero-shot-known-item-retrieval-capabilities-of-llms" target="_blank">6</a>, <a href="https://arxiv.org/abs/2503.19193" target="_blank">7</a>, <a href="https://arxiv.org/abs/2502.17776" target="_blank">8</a>].
+The ToT task was previously organized as a [TREC Track](https://trec-tot.github.io/) (2023-2025) with the aim of developing IR systems that can successfully resolve ToT information needs.
+The NTCIR shared task extends this initiative to multilingual settings by including queries and corresponding corpora in English and three East Asian languages (Chinese, Japanese, and Korean).
+Progress in this area will likely benefit other IR systems that must deal with memory assistance, such as personal information management (PIM) systems (e.g., email re-finding). The track will focus on known-item identification—a task that is broadly relatable and has been the focus of recent research [<a href="https://dl.acm.org/doi/abs/10.1145/3406522.3446021" target="_blank">1</a>, <a href="https://dl.acm.org/doi/abs/10.1145/3465336.3475096" target="_blank">2</a>, <a href="https://dl.acm.org/doi/abs/10.1145/3488560.3498421" target="_blank">3</a>, <a href="https://ceur-ws.org/Vol-3366/paper-03.pdf" target="_blank">4</a>, <a href="https://aclanthology.org/2023.findings-emnlp.367/" target="_blank">5</a>, <a href="https://vbn.aau.dk/en/publications/exploring-the-zero-shot-known-item-retrieval-capabilities-of-llms" target="_blank">6</a>, <a href="https://arxiv.org/abs/2503.19193" target="_blank">7</a>, <a href="https://arxiv.org/abs/2502.17776" target="_blank">8</a>].
 
 
 ## Motivations and challenges
@@ -67,9 +69,25 @@ See <a href="https://ils.unc.edu/~jarguell/TREC-TOT.pdf">this presentation</a> f
     <p>
         <a href="https://841.io/" class="fa fa-home" style="font-size:24px;color:grey" target="_blank"></a>
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://bsky.app/profile/841io.bsky.social" class="fab fa-bluesky" style="font-size:24px;color:grey" target="_blank"></a>
-        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/841io" class="fab fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>
+        <!--&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/841io" class="fab fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>-->
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://mastodon.social/@841io@sigmoid.social" class="fab fa-mastodon" style="font-size:24px;color:grey" target="_blank"></a>
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/fernando-diaz-b6b9023/" class="fab fa-linkedin" style="font-size:24px;color:grey" target="_blank"></a>
+    </p>
+  </div>
+</div>
+</p>
+<p>
+<div style="width: 100%; overflow: hidden;">
+  <div style="float: left;">
+    <img src="img/he.jpg" alt="Avatar" style="height:130px;border-radius:50%">
+  </div>
+  <div style="margin-left: 200px;">
+    <b>Xuhong He</b>
+    <br/>Carnegie Mellon University
+    <br/>Pennsylvania, United States
+    <p>
+        <!--<a href="" class="fa fa-home" style="font-size:24px;color:grey" target="_blank"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;--><a href="https://www.linkedin.com/in/xuhong-he" class="fab fa-linkedin" style="font-size:24px;color:grey" target="_blank"></a>
     </p>
   </div>
 </div>
@@ -86,7 +104,7 @@ See <a href="https://ils.unc.edu/~jarguell/TREC-TOT.pdf">this presentation</a> f
     <p>
         <a href="https://kimdanny.github.io/" class="fa fa-home" style="font-size:24px;color:grey" target="_blank"></a>
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://bsky.app/profile/teknology.bsky.social" class="fab fa-bluesky" style="font-size:24px;color:grey" target="_blank"></a>
-        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://x.com/TEKnologyy" class="fab fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>
+        <!--&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://x.com/TEKnologyy" class="fab fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>-->
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/danny-toeun-kim/" class="fab fa-linkedin" style="font-size:24px;color:grey" target="_blank"></a>
     </p>
   </div>
@@ -120,7 +138,7 @@ See <a href="https://ils.unc.edu/~jarguell/TREC-TOT.pdf">this presentation</a> f
     <p>
         <a href="https://bhaskar-mitra.github.io/" class="fa fa-home" style="font-size:24px;color:grey" target="_blank"></a>
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://bsky.app/profile/bmitra.bsky.social" class="fab fa-bluesky" style="font-size:24px;color:grey" target="_blank"></a>
-        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/UnderdogGeek" class="fab fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>
+        <!--&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/UnderdogGeek" class="fab fa-twitter" style="font-size:24px;color:grey" target="_blank"></a>-->
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://mastodon.social/@bmitra" class="fab fa-mastodon" style="font-size:24px;color:grey" target="_blank"></a>
         &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/bhaskarmitra/" class="fab fa-linkedin" style="font-size:24px;color:grey" target="_blank"></a>
     </p>
