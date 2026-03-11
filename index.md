@@ -104,7 +104,7 @@ See <a href="https://ils.unc.edu/~jarguell/TREC-TOT.pdf">this presentation</a> f
     <br/>Pennsylvania, United States
     <p>
         <a href="https://dho233.github.io/" class="fa fa-home" style="font-size:24px;color:grey" target="_blank"></a>
-        &nbsp;&nbsp;&nbsp;&nbsp;--><a href="https://www.linkedin.com/in/xuhong-he" class="fab fa-linkedin" style="font-size:24px;color:grey" target="_blank"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/xuhong-he" class="fab fa-linkedin" style="font-size:24px;color:grey" target="_blank"></a>
     </p>
   </div>
 </div>
