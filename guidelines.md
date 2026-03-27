@@ -120,7 +120,7 @@ This year, the corpus is also available via our <a href="github.com/NTCIR-ToT/ir
 
 #### Access corpora through IR-Datasets
 
-Please install the ir_datasets datasets from our <a href="github.com/NTCIR-ToT/ir_datasets">fork</a>, and then run the following sample code.
+Please install the ir_datasets datasets from our <a href="https://github.com/NTCIR-ToT/ir_datasets">fork</a>, and then run the following sample code.
 
 ```python
 import ir_datasets
