@@ -36,7 +36,37 @@ Separate datasets will be provided to participants in English, Chinese, Japanese
 Participants can submit runs for one or more languages.
 
 ## Datasets
-(Coming soon!)
+
+We provide four datasets, for  English, Chinese, Japanese, and Korean. The data is hosted in Zenodo and can be downloaded <a href="https://zenodo.org/records/18777084" target="_blank">here</a>. The datasets can also be accessed via <a href="https://github.com/NTCIR-ToT/ir_datasets" target="_blank">an IR-Dataset fork</a> (attention: we have a public fork of ir_datasets that you can use to programmatically access the data). See [Corpora](#corpora) and [Queries](#queries) for a description of the files and additional access information.
+
+### English Subset
+
+The data for the English subset of the task are:
+
+| Description                                   | Link             | # entries| md5sum |
+|-----------------------------------------------|------------------|----------|--------|
+| corpus (JSONL)                                | [corpus-en.jsonl.gz](https://zenodo.org/records/18777084/files/corpus-en.jsonl.gz) | 6,407,814 | 3229923fdbc4151fc6911085265713f4 |
+| train queries                                 | [queries-train-en.jsonl](https://zenodo.org/records/18777084/files/queries-train-en.jsonl)      | 4000 | f9e3c5e5acbaedb28aa112cef6306c12 |
+| train qrels                                   | [qrels-train-en.txt](https://zenodo.org/records/18777084/files/qrels-train-en.txt)  | 4000 | bc8c154d45d6e1583d79e20f8305c449 |
+| dev queries                     | [queries-dev-en.jsonl](https://zenodo.org/records/18777084/files/queries-dev-en.jsonl)       | 500 | a1e27e3e85b5521cd4ee76f903f594b1 |
+| dev qrels                                    | [qrels-dev-en.txt](https://zenodo.org/records/18777084/files/qrels-dev-en.txt)   | 500 | e4cf9ee4e53be21f90f154fc21cbbe20 |
+
+
+### Chinese Subset
+
+The data for the Chinese subset of the task are:
+
+
+### Japanese Subset
+
+The data for the Chinese subset of the task are:
+
+
+### Korean Subset
+
+The data for the Chinese subset of the task are:
+
+
 
 ## Submission and evaluation
 
