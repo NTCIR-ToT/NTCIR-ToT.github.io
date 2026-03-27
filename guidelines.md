@@ -92,6 +92,53 @@ The data for the Korean subset of the task are:
 | dev queries                     | [queries-dev-ko.jsonl](https://zenodo.org/records/18777084/files/queries-dev-ko.jsonl)       | 500 | fa5d243756d253ac1b980ad9442f4c5e |
 | dev qrels                                    | [qrels-dev-ko.txt](https://zenodo.org/records/18777084/files/qrels-dev-ko.txt)   | 500 | ead40835c0b461e433948834dd27516b |
 
+### Corpora
+
+For each of our four languages, we use Wikipedia (in the corresponding language) as corpus. Each document in the corpus will be described by the following fields:
+
+- **doc_id**: the primary identifier, the Wikipedia page ID.
+- **url**: the wikipedia page URL.
+- **title**: wikipedia page title.
+- **text**: (full) text of the wikipedia page.
+
+An example document is described below.
+
+#### Example Document
+
+```json
+
+{
+  "id": "846",
+  "url": "https://en.wikipedia.org/wiki/Museum%20of%20Work",
+  "title": "Museum of Work",
+  "text": "The Museum of Work (Arbetets museum) is a museum ..."
+}
+
+```
+
+This year, the corpus is also available via our <a href="github.com/NTCIR-ToT/ir_datasets" target="_blank">IR-Dataset Fork</a>.
+
+#### Access corpora through IR-Datasets
+
+Please install the ir_datasets datasets from our <a href="github.com/NTCIR-ToT/ir_datasets">fork</a>, and then run the following sample code.
+
+```python
+import ir_datasets
+# the pattern is ntcir-tot/2026/<LANGUAGE>/<SPLIT>
+# <LANGUAGE> is either en, zh, ja, or ko
+# <SPLIT> is either train, dev, or test
+dataset = ir_datasets.load("ntcir-tot/2026/en/train")
+
+for query in dataset.queries_iter():
+    print(query)
+    break
+
+for doc in dataset.docs_iter():
+    print(doc.doc_id)
+    break
+```
+
+
 
 ## Submission and evaluation
 
