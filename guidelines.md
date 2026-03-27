@@ -69,7 +69,7 @@ The data for the Chinese subset of the task are:
 
 ### Japanese Subset
 
-The data for the Chinese subset of the task are:
+The data for the Japanese subset of the task are:
 
 | Description                                   | Link             | # entries| md5sum |
 |-----------------------------------------------|------------------|----------|--------|
@@ -82,7 +82,7 @@ The data for the Chinese subset of the task are:
 
 ### Korean Subset
 
-The data for the Chinese subset of the task are:
+The data for the Korean subset of the task are:
 
 | Description                                   | Link             | # entries| md5sum |
 |-----------------------------------------------|------------------|----------|--------|
