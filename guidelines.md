@@ -35,6 +35,63 @@ The retrieval task is multilingual.
 Separate datasets will be provided to participants in English, Chinese, Japanese, and Korean.
 Participants can submit runs for one or more languages.
 
+## Datasets
+
+We provide four datasets, for  English, Chinese, Japanese, and Korean. The data is hosted in Zenodo and can be downloaded <a href="https://zenodo.org/records/18777084" target="_blank">here</a>. The datasets can also be accessed via <a href="https://github.com/NTCIR-ToT/ir_datasets" target="_blank">an IR-Dataset fork</a> (attention: we have a public fork of ir_datasets that you can use to programmatically access the data). See [Corpora](#corpora) and [Queries](#queries) for a description of the files and additional access information.
+
+
+**Test queries:** Coming soon! (the corpus will be the same, you can already develop your system with the training and dev queries/qrels.)
+
+### English Subset
+
+The data for the English subset of the task are:
+
+| Description                                   | Link             | # entries| md5sum |
+|-----------------------------------------------|------------------|----------|--------|
+| corpus (JSONL)                                | [corpus-en.jsonl.gz](https://zenodo.org/records/18777084/files/corpus-en.jsonl.gz) | 6,407,814 | 3229923fdbc4151fc6911085265713f4 |
+| train queries                                 | [queries-train-en.jsonl](https://zenodo.org/records/18777084/files/queries-train-en.jsonl)      | 4000 | f9e3c5e5acbaedb28aa112cef6306c12 |
+| train qrels                                   | [qrels-train-en.txt](https://zenodo.org/records/18777084/files/qrels-train-en.txt)  | 4000 | bc8c154d45d6e1583d79e20f8305c449 |
+| dev queries                     | [queries-dev-en.jsonl](https://zenodo.org/records/18777084/files/queries-dev-en.jsonl)       | 500 | a1e27e3e85b5521cd4ee76f903f594b1 |
+| dev qrels                                    | [qrels-dev-en.txt](https://zenodo.org/records/18777084/files/qrels-dev-en.txt)   | 500 | e4cf9ee4e53be21f90f154fc21cbbe20 |
+
+
+### Chinese Subset
+
+The data for the Chinese subset of the task are:
+
+| Description                                   | Link             | # entries| md5sum |
+|-----------------------------------------------|------------------|----------|--------|
+| corpus (JSONL)                                | [corpus-zh.jsonl.gz](https://zenodo.org/records/18777084/files/corpus-zh.jsonl.gz) |  1,384,748| 52e7b7c6d5e21a8184bb46966a34b2cf |
+| train queries                                 | [queries-train-zh.jsonl](https://zenodo.org/records/18777084/files/queries-train-zh.jsonl)      | 4000 | 060f17e55f36628935100b6256436676 |
+| train qrels                                   | [qrels-train-zh.txt](https://zenodo.org/records/18777084/files/qrels-train-zh.txt)  | 4000 | a1bb49385447332cff472817c5509122 |
+| dev queries                     | [queries-dev-zh.jsonl](https://zenodo.org/records/18777084/files/queries-dev-zh.jsonl)       | 500 | b94b704344fa6bacb4f68f27431e9b02 |
+| dev qrels                                    | [qrels-dev-zh.txt](https://zenodo.org/records/18777084/files/qrels-dev-zh.txt)   | 500 | d6199d8fc49b0c9929d5730a7693b6e2 |
+
+### Japanese Subset
+
+The data for the Japanese subset of the task are:
+
+| Description                                   | Link             | # entries| md5sum |
+|-----------------------------------------------|------------------|----------|--------|
+| corpus (JSONL)                                | [corpus-ja.jsonl.gz](https://zenodo.org/records/18777084/files/corpus-ja.jsonl.gz) |  1,389,467| f0515675e955641ffd1fcf7c000a2d9f |
+| train queries                                 | [queries-train-ja.jsonl](https://zenodo.org/records/18777084/files/queries-train-ja.jsonl)      | 4000 | 2050e5a0102bfe9c9795759c0a72a113 |
+| train qrels                                   | [qrels-train-ja.txt](https://zenodo.org/records/18777084/files/qrels-train-ja.txt)  | 4000 | a3d553ca1290f49757d4a61e697503f7 |
+| dev queries                     | [queries-dev-ja.jsonl](https://zenodo.org/records/18777084/files/queries-dev-ja.jsonl)       | 500 | ca591070a075c3460f126c06e3aed04d |
+| dev qrels                                    | [qrels-dev-ja.txt](https://zenodo.org/records/18777084/files/qrels-dev-ja.txt)   | 500 | 9cd246fd0654cae4aa1acee740dee770 |
+
+
+### Korean Subset
+
+The data for the Korean subset of the task are:
+
+| Description                                   | Link             | # entries| md5sum |
+|-----------------------------------------------|------------------|----------|--------|
+| corpus (JSONL)                                | [corpus-ko.jsonl.gz](https://zenodo.org/records/18777084/files/corpus-ko.jsonl.gz) | 647,897 | b8007b99a5b9730677cbfa4ce32389e0 |
+| train queries                                 | [queries-train-ko.jsonl](https://zenodo.org/records/18777084/files/queries-train-ko.jsonl)      | 4000 | 60e177bb7163a70ba7be3605389acdcb |
+| train qrels                                   | [qrels-train-ko.txt](https://zenodo.org/records/18777084/files/qrels-train-ko.txt)  | 4000 | 46cc66a66aad9ce41c9285a47e49732f |
+| dev queries                     | [queries-dev-ko.jsonl](https://zenodo.org/records/18777084/files/queries-dev-ko.jsonl)       | 500 | fa5d243756d253ac1b980ad9442f4c5e |
+| dev qrels                                    | [qrels-dev-ko.txt](https://zenodo.org/records/18777084/files/qrels-dev-ko.txt)   | 500 | ead40835c0b461e433948834dd27516b |
+
 ### Corpora
 
 For each of our four languages, we use Wikipedia (in the corresponding language) as corpus. Each document in the corpus will be described by the following fields:
@@ -92,63 +149,6 @@ Participating groups will be given a JSONL file (or can access the queries via o
 }
 
 ```
-
-## Datasets
-
-We provide four datasets, for  English, Chinese, Japanese, and Korean. The data is hosted in Zenodo and can be downloaded <a href="https://zenodo.org/records/18777084" target="_blank">here</a>. The datasets can also be accessed via <a href="https://github.com/NTCIR-ToT/ir_datasets" target="_blank">an IR-Dataset fork</a> (attention: we have a public fork of ir_datasets that you can use to programmatically access the data). See [Corpora](#corpora) and [Queries](#queries) for a description of the files and additional access information.
-
-
-**Test queries:** Coming soon! (the corpus will be the same, you can already develop your system with the training and dev queries/qrels.)
-
-### English Subset
-
-The data for the English subset of the task are:
-
-| Description                                   | Link             | # entries| md5sum |
-|-----------------------------------------------|------------------|----------|--------|
-| corpus (JSONL)                                | [corpus-en.jsonl.gz](https://zenodo.org/records/18777084/files/corpus-en.jsonl.gz) | 6,407,814 | 3229923fdbc4151fc6911085265713f4 |
-| train queries                                 | [queries-train-en.jsonl](https://zenodo.org/records/18777084/files/queries-train-en.jsonl)      | 4000 | f9e3c5e5acbaedb28aa112cef6306c12 |
-| train qrels                                   | [qrels-train-en.txt](https://zenodo.org/records/18777084/files/qrels-train-en.txt)  | 4000 | bc8c154d45d6e1583d79e20f8305c449 |
-| dev queries                     | [queries-dev-en.jsonl](https://zenodo.org/records/18777084/files/queries-dev-en.jsonl)       | 500 | a1e27e3e85b5521cd4ee76f903f594b1 |
-| dev qrels                                    | [qrels-dev-en.txt](https://zenodo.org/records/18777084/files/qrels-dev-en.txt)   | 500 | e4cf9ee4e53be21f90f154fc21cbbe20 |
-
-
-### Chinese Subset
-
-The data for the Chinese subset of the task are:
-
-| Description                                   | Link             | # entries| md5sum |
-|-----------------------------------------------|------------------|----------|--------|
-| corpus (JSONL)                                | [corpus-zh.jsonl.gz](https://zenodo.org/records/18777084/files/corpus-zh.jsonl.gz) |  1,384,748| 52e7b7c6d5e21a8184bb46966a34b2cf |
-| train queries                                 | [queries-train-zh.jsonl](https://zenodo.org/records/18777084/files/queries-train-zh.jsonl)      | 4000 | 060f17e55f36628935100b6256436676 |
-| train qrels                                   | [qrels-train-zh.txt](https://zenodo.org/records/18777084/files/qrels-train-zh.txt)  | 4000 | a1bb49385447332cff472817c5509122 |
-| dev queries                     | [queries-dev-zh.jsonl](https://zenodo.org/records/18777084/files/queries-dev-zh.jsonl)       | 500 | b94b704344fa6bacb4f68f27431e9b02 |
-| dev qrels                                    | [qrels-dev-zh.txt](https://zenodo.org/records/18777084/files/qrels-dev-zh.txt)   | 500 | d6199d8fc49b0c9929d5730a7693b6e2 |
-
-### Japanese Subset
-
-The data for the Japanese subset of the task are:
-
-| Description                                   | Link             | # entries| md5sum |
-|-----------------------------------------------|------------------|----------|--------|
-| corpus (JSONL)                                | [corpus-ja.jsonl.gz](https://zenodo.org/records/18777084/files/corpus-ja.jsonl.gz) |  1,389,467| f0515675e955641ffd1fcf7c000a2d9f |
-| train queries                                 | [queries-train-ja.jsonl](https://zenodo.org/records/18777084/files/queries-train-ja.jsonl)      | 4000 | 2050e5a0102bfe9c9795759c0a72a113 |
-| train qrels                                   | [qrels-train-ja.txt](https://zenodo.org/records/18777084/files/qrels-train-ja.txt)  | 4000 | a3d553ca1290f49757d4a61e697503f7 |
-| dev queries                     | [queries-dev-ja.jsonl](https://zenodo.org/records/18777084/files/queries-dev-ja.jsonl)       | 500 | ca591070a075c3460f126c06e3aed04d |
-| dev qrels                                    | [qrels-dev-ja.txt](https://zenodo.org/records/18777084/files/qrels-dev-ja.txt)   | 500 | 9cd246fd0654cae4aa1acee740dee770 |
-
-
-### Korean Subset
-
-The data for the Korean subset of the task are:
-
-| Description                                   | Link             | # entries| md5sum |
-|-----------------------------------------------|------------------|----------|--------|
-| corpus (JSONL)                                | [corpus-ko.jsonl.gz](https://zenodo.org/records/18777084/files/corpus-ko.jsonl.gz) | 647,897 | b8007b99a5b9730677cbfa4ce32389e0 |
-| train queries                                 | [queries-train-ko.jsonl](https://zenodo.org/records/18777084/files/queries-train-ko.jsonl)      | 4000 | 60e177bb7163a70ba7be3605389acdcb |
-| train qrels                                   | [qrels-train-ko.txt](https://zenodo.org/records/18777084/files/qrels-train-ko.txt)  | 4000 | 46cc66a66aad9ce41c9285a47e49732f |
-| dev queries                     | [queries-dev-ko.jsonl](https://zenodo.org/records/18777084/files/queries-dev-ko.jsonl)       | 500 | fa5d243756d253ac1b980ad9442f4c5e |
-| dev qrels                                    | [qrels-dev-ko.txt](https://zenodo.org/records/18777084/files/qrels-dev-ko.txt)   | 500 | ead40835c0b461e433948834dd27516b |
 
 ## Submission and evaluation
 
