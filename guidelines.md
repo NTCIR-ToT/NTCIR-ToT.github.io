@@ -138,6 +138,17 @@ for doc in dataset.docs_iter():
     break
 ```
 
+### Queries
+
+Participating groups will be given a JSONL file (or can access the queries via our ir_datasets fork described above) consisting of a random sample of queries each for training, development, and test. The query format for this year has two fields: **query_id** and **query**. An example query is described below.
+
+```json
+{
+  "query_id": "763",
+  "query": "Super Rare Surreal Dystopian Masterpiece .\n Very rare movie that is scifi/dystopian/experimental/surreal. It\u2019s like Stalker meets el Topo meets Holy Mountain meets Alphaville meets Delicatessen meets Hard to be a God, like Kurosawa, Tarkovsky, and Lynch had a kid together. It was color, possibly Russian, and I don\u2019t really remember the decade but want to say 60s or 70s, though could easily be more recent. It is VERY rare, there is only one crappy partial print of it, and that is what the youtube version is from. Lot of wide shots in a surreal wilderness, winter settings, strange bleeding saturation in some shots. Crazy costumes. Seriously one of the strangest films I\u2019ve ever seen and my favorite films are strange/weird ones. If you\u2019ve ever seen what you\u2019re thinking of on a \u201cbest weird movies\u201d or \u201cyou\u2019ve never seen this!\u201d list, that\u2019s NOT it. I don\u2019t think this film even has a cult following of ten people. It\u2019s an actual rare gem. Have been looking through selections at 366 Weird Movies and not found it yet (btw the way most of those titles are exactly the kind of not-actually-rare movies this film is definitely not)."
+}
+
+```
 
 
 ## Submission and evaluation
