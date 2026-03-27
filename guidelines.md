@@ -116,7 +116,7 @@ An example document is described below.
 
 ```
 
-This year, the corpus is also available via our <a href="github.com/NTCIR-ToT/ir_datasets" target="_blank">IR-Dataset Fork</a>.
+This year, the corpus is also available via our <a href="https://github.com/NTCIR-ToT/ir_datasets" target="_blank">IR-Dataset Fork</a>.
 
 #### Access corpora through IR-Datasets
 
