@@ -68,6 +68,14 @@ The data for the Chinese subset of the task are:
 
 The data for the Chinese subset of the task are:
 
+| Description                                   | Link             | # entries| md5sum |
+|-----------------------------------------------|------------------|----------|--------|
+| corpus (JSONL)                                | [corpus-ja.jsonl.gz](https://zenodo.org/records/18777084/files/corpus-ja.jsonl.gz) |  1,389,467| f0515675e955641ffd1fcf7c000a2d9f |
+| train queries                                 | [queries-train-ja.jsonl](https://zenodo.org/records/18777084/files/queries-train-ja.jsonl)      | 4000 | 2050e5a0102bfe9c9795759c0a72a113 |
+| train qrels                                   | [qrels-train-ja.txt](https://zenodo.org/records/18777084/files/qrels-train-ja.txt)  | 4000 | a3d553ca1290f49757d4a61e697503f7 |
+| dev queries                     | [queries-dev-ja.jsonl](https://zenodo.org/records/18777084/files/queries-dev-ja.jsonl)       | 500 | ca591070a075c3460f126c06e3aed04d |
+| dev qrels                                    | [qrels-dev-ja.txt](https://zenodo.org/records/18777084/files/qrels-dev-ja.txt)   | 500 | 9cd246fd0654cae4aa1acee740dee770 |
+
 
 ### Korean Subset
 
