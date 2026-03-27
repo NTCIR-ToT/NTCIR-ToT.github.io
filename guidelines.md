@@ -56,6 +56,13 @@ The data for the English subset of the task are:
 
 The data for the Chinese subset of the task are:
 
+| Description                                   | Link             | # entries| md5sum |
+|-----------------------------------------------|------------------|----------|--------|
+| corpus (JSONL)                                | [corpus-zh.jsonl.gz](https://zenodo.org/records/18777084/files/corpus-zh.jsonl.gz) |  1,384,748| 52e7b7c6d5e21a8184bb46966a34b2cf |
+| train queries                                 | [queries-train-zh.jsonl](https://zenodo.org/records/18777084/files/queries-train-zh.jsonl)      | 4000 | 060f17e55f36628935100b6256436676 |
+| train qrels                                   | [qrels-train-zh.txt](https://zenodo.org/records/18777084/files/qrels-train-zh.txt)  | 4000 | a1bb49385447332cff472817c5509122 |
+| dev queries                     | [queries-dev-zh.jsonl](https://zenodo.org/records/18777084/files/queries-dev-zh.jsonl)       | 500 | b94b704344fa6bacb4f68f27431e9b02 |
+| dev qrels                                    | [qrels-dev-zh.txt](https://zenodo.org/records/18777084/files/qrels-dev-zh.txt)   | 500 | d6199d8fc49b0c9929d5730a7693b6e2 |
 
 ### Japanese Subset
 
