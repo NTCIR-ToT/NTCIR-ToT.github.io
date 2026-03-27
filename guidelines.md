@@ -39,6 +39,9 @@ Participants can submit runs for one or more languages.
 
 We provide four datasets, for  English, Chinese, Japanese, and Korean. The data is hosted in Zenodo and can be downloaded <a href="https://zenodo.org/records/18777084" target="_blank">here</a>. The datasets can also be accessed via <a href="https://github.com/NTCIR-ToT/ir_datasets" target="_blank">an IR-Dataset fork</a> (attention: we have a public fork of ir_datasets that you can use to programmatically access the data). See [Corpora](#corpora) and [Queries](#queries) for a description of the files and additional access information.
 
+
+**Test queries:** Coming soon! (the corpus will be the same, you can already develop your system with the training and dev queries/qrels.)
+
 ### English Subset
 
 The data for the English subset of the task are:
@@ -81,6 +84,13 @@ The data for the Chinese subset of the task are:
 
 The data for the Chinese subset of the task are:
 
+| Description                                   | Link             | # entries| md5sum |
+|-----------------------------------------------|------------------|----------|--------|
+| corpus (JSONL)                                | [corpus-ko.jsonl.gz](https://zenodo.org/records/18777084/files/corpus-ko.jsonl.gz) | 647,897 | b8007b99a5b9730677cbfa4ce32389e0 |
+| train queries                                 | [queries-train-ko.jsonl](https://zenodo.org/records/18777084/files/queries-train-ko.jsonl)      | 4000 | 60e177bb7163a70ba7be3605389acdcb |
+| train qrels                                   | [qrels-train-ko.txt](https://zenodo.org/records/18777084/files/qrels-train-ko.txt)  | 4000 | 46cc66a66aad9ce41c9285a47e49732f |
+| dev queries                     | [queries-dev-ko.jsonl](https://zenodo.org/records/18777084/files/queries-dev-ko.jsonl)       | 500 | fa5d243756d253ac1b980ad9442f4c5e |
+| dev qrels                                    | [qrels-dev-ko.txt](https://zenodo.org/records/18777084/files/qrels-dev-ko.txt)   | 500 | ead40835c0b461e433948834dd27516b |
 
 
 ## Submission and evaluation
