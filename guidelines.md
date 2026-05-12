@@ -13,7 +13,7 @@ Welcome to the guidelines for the upcoming 2026 edition of the NTCIR ToT shared 
 
 ## Important dates
 * **March 27:** Release corpus and training queries
-* **May (tentative):** Release test queries
+* **May 12:** Release test queries
 * **June 1st:** Deadline for registration
 * **July (tentative):** Deadline for submitting runs
 
@@ -53,6 +53,7 @@ The data for the English subset of the task are:
 | train qrels                                   | [qrels-train-en.txt](https://zenodo.org/records/18777084/files/qrels-train-en.txt)  | 4000 | bc8c154d45d6e1583d79e20f8305c449 |
 | dev queries                     | [queries-dev-en.jsonl](https://zenodo.org/records/18777084/files/queries-dev-en.jsonl)       | 500 | a1e27e3e85b5521cd4ee76f903f594b1 |
 | dev qrels                                    | [qrels-dev-en.txt](https://zenodo.org/records/18777084/files/qrels-dev-en.txt)   | 500 | e4cf9ee4e53be21f90f154fc21cbbe20 |
+| test queries                                 | [queries-test-en.jsonl](https://zenodo.org/records/18482680/files/queries-test-en.jsonl) | 500 | b1a52f75800c17af054d63e7d9f2fa63 |
 
 
 ### Chinese Subset
@@ -66,6 +67,7 @@ The data for the Chinese subset of the task are:
 | train qrels                                   | [qrels-train-zh.txt](https://zenodo.org/records/18777084/files/qrels-train-zh.txt)  | 4000 | a1bb49385447332cff472817c5509122 |
 | dev queries                     | [queries-dev-zh.jsonl](https://zenodo.org/records/18777084/files/queries-dev-zh.jsonl)       | 500 | b94b704344fa6bacb4f68f27431e9b02 |
 | dev qrels                                    | [qrels-dev-zh.txt](https://zenodo.org/records/18777084/files/qrels-dev-zh.txt)   | 500 | d6199d8fc49b0c9929d5730a7693b6e2 |
+| test queries                                 | [queries-test-zh.jsonl](https://zenodo.org/records/18482680/files/queries-test-zh.jsonl) | 500 | afaba1cf77a4459a8a19c1b8d569d487 |
 
 ### Japanese Subset
 
@@ -78,6 +80,7 @@ The data for the Japanese subset of the task are:
 | train qrels                                   | [qrels-train-ja.txt](https://zenodo.org/records/18777084/files/qrels-train-ja.txt)  | 4000 | a3d553ca1290f49757d4a61e697503f7 |
 | dev queries                     | [queries-dev-ja.jsonl](https://zenodo.org/records/18777084/files/queries-dev-ja.jsonl)       | 500 | ca591070a075c3460f126c06e3aed04d |
 | dev qrels                                    | [qrels-dev-ja.txt](https://zenodo.org/records/18777084/files/qrels-dev-ja.txt)   | 500 | 9cd246fd0654cae4aa1acee740dee770 |
+| test queries                                 | [queries-test-ja.jsonl](https://zenodo.org/records/18482680/files/queries-test-ja.jsonl) | 500 | 27949f7acb8a0012aa904d472b9e1b70 |
 
 
 ### Korean Subset
@@ -91,6 +94,7 @@ The data for the Korean subset of the task are:
 | train qrels                                   | [qrels-train-ko.txt](https://zenodo.org/records/18777084/files/qrels-train-ko.txt)  | 4000 | 46cc66a66aad9ce41c9285a47e49732f |
 | dev queries                     | [queries-dev-ko.jsonl](https://zenodo.org/records/18777084/files/queries-dev-ko.jsonl)       | 500 | fa5d243756d253ac1b980ad9442f4c5e |
 | dev qrels                                    | [qrels-dev-ko.txt](https://zenodo.org/records/18777084/files/qrels-dev-ko.txt)   | 500 | ead40835c0b461e433948834dd27516b |
+| test queries                                 | [queries-test-ko.jsonl](https://zenodo.org/records/18482680/files/queries-test-ko.jsonl) | 500 | 24f5030873cb90cf837d0aed9ceef6fb |
 
 ### Corpora
 
