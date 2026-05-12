@@ -15,7 +15,7 @@ Welcome to the guidelines for the upcoming 2026 edition of the NTCIR ToT shared 
 * **March 27:** Release corpus and training queries
 * **May 12:** Release test queries
 * **June 1st:** Deadline for registration
-* **July (tentative):** Deadline for submitting runs
+* **July 30:** Deadline for submitting runs
 
 ## Registration
 
