@@ -40,8 +40,6 @@ Participants can submit runs for one or more languages.
 We provide four datasets, for  English, Chinese, Japanese, and Korean. The data is hosted in Zenodo and can be downloaded <a href="https://zenodo.org/records/18777084" target="_blank">here</a>. The datasets can also be accessed via <a href="https://github.com/NTCIR-ToT/ir_datasets" target="_blank">an IR-Dataset fork</a> (attention: we have a public fork of ir_datasets that you can use to programmatically access the data). See [Corpora](#corpora) and [Queries](#queries) for a description of the files and additional access information.
 
 
-**Test queries:** Coming soon! (the corpus will be the same, you can already develop your system with the training and dev queries/qrels.)
-
 ### English Subset
 
 The data for the English subset of the task are:
