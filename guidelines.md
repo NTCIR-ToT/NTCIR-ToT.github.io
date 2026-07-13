@@ -154,8 +154,8 @@ Participating groups will be given a JSONL file (or can access the queries via o
 
 ## Submission and evaluation
 
-**Submission form:** Coming soon!
-(You must <a href="#registration">register as a participant</a> to submit a run).
+Submission instructions will be shared with registered participants.
+You must <a href="#registration">register as a participant</a> to submit a run.
 
 All submissions should be in the following runfile format. White space is used to separate columns. The width of the columns in the format is not important, but it is important to have exactly six columns per line with at least one space between the columns.
 
